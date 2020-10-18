@@ -22,7 +22,7 @@
       /> -->
       <img
         class="img-fluid" 
-        src="img/brand/hcero-logo-azul.jpg" 
+        src="img/brand/hcero-logo-blanco.png" 
         alt="logo"
       >
     </CSidebarBrand>
