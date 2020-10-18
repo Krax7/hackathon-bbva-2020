@@ -3,13 +3,13 @@ export default [{
   _children: [
     {
       _name: 'CSidebarNavItem',
-      name: 'Dashboard',
+      name: 'Mi progreso',
       to: '/dashboard',
       icon: 'cil-speedometer',
-      badge: {
-        color: 'primary',
-        text: 'NEW'
-      }
+      // badge: {
+      //   color: 'primary',
+      //   text: 'NEW'
+      // }
     },
     {
       _name: 'CSidebarNavTitle',
