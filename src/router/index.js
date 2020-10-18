@@ -6,6 +6,7 @@ const TheContainer = () => import('@/containers/TheContainer')
 
 // Views
 const Dashboard = () => import('@/views/Dashboard')
+const Progress = () => import('@/views/Progress')
 
 const Colors = () => import('@/views/theme/Colors')
 const Typography = () => import('@/views/theme/Typography')
@@ -88,6 +89,8 @@ const Compose = () => import('@/views/apps/email/Compose')
 const Inbox = () => import('@/views/apps/email/Inbox')
 const Message = () => import('@/views/apps/email/Message')
 
+const Compromisos = () => import('@/views/compromisos/Compromisos')
+
 Vue.use(Router)
 
 export default new Router({
@@ -105,6 +108,16 @@ export default new Router({
           path: 'dashboard',
           name: 'Dashboard',
           component: Dashboard
+        },
+        {
+          path: 'progress',
+          name: 'Progress',
+          component: Progress
+        },
+        {
+          path: 'compromisos',
+          name: 'Compromisos',
+          component: Compromisos
         },
         {
           path: 'theme',

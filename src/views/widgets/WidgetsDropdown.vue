@@ -1,20 +1,8 @@
 <template>
   <CRow>
-    <CCol sm="6" lg="3">
-      <CWidgetDropdown color="gradient-primary" header="9.823" text="Members online">
+    <CCol sm="6" lg="4">
+      <CWidgetDropdown color="gradient-primary" header="800" text="Empresas comprometidas">
         <template #default>
-          <CDropdown
-            color="transparent p-0"
-            placement="bottom-end"
-          >
-            <template #toggler-content>
-              <CIcon name="cil-settings"/>
-            </template>
-            <CDropdownItem>Action</CDropdownItem>
-            <CDropdownItem>Another action</CDropdownItem>
-            <CDropdownItem>Something else here...</CDropdownItem>
-            <CDropdownItem disabled>Disabled action</CDropdownItem>
-          </CDropdown>
         </template>
         <template #footer>
           <CChartLineSimple
@@ -29,8 +17,8 @@
         </template>
       </CWidgetDropdown>
     </CCol>
-    <CCol sm="6" lg="3">
-      <CWidgetDropdown color="gradient-info" header="9.823" text="Members online">
+    <CCol sm="6" lg="4">
+      <CWidgetDropdown color="gradient-info" header="2330" text="Toneladas de CO2 reducidas">
         <template #default>
           <CDropdown
             color="transparent p-0"
@@ -40,10 +28,7 @@
             <template #toggler-content>
               <CIcon name="cil-location-pin"/>
             </template>
-            <CDropdownItem>Action</CDropdownItem>
-            <CDropdownItem>Another action</CDropdownItem>
-            <CDropdownItem>Something else here...</CDropdownItem>
-            <CDropdownItem disabled>Disabled action</CDropdownItem>
+            <CDropdownItem>Mapa de empresas</CDropdownItem>
           </CDropdown>
         </template>
         <template #footer>
@@ -60,25 +45,13 @@
         </template>
       </CWidgetDropdown>
     </CCol>
-    <CCol sm="6" lg="3">
+    <CCol sm="6" lg="4">
       <CWidgetDropdown
         color="gradient-warning"
-        header="9.823"
-        text="Members online"
+        header="400"
+        text="Empresas con soluciones inscritas"
       >
         <template #default>
-          <CDropdown
-            color="transparent p-0"
-            placement="bottom-end"
-          >
-            <template #toggler-content>
-              <CIcon name="cil-settings"/>
-            </template>
-            <CDropdownItem>Action</CDropdownItem>
-            <CDropdownItem>Another action</CDropdownItem>
-            <CDropdownItem>Something else here...</CDropdownItem>
-            <CDropdownItem disabled>Disabled action</CDropdownItem>
-          </CDropdown>
         </template>
         <template #footer>
           <CChartLineSimple
@@ -94,7 +67,7 @@
         </template>
       </CWidgetDropdown>
     </CCol>
-    <CCol sm="6" lg="3">
+    <!-- <CCol sm="6" lg="3">
       <CWidgetDropdown
         color="gradient-danger"
         header="9.823"
@@ -124,7 +97,7 @@
           />
         </template>
       </CWidgetDropdown>
-    </CCol>
+    </CCol> -->
   </CRow>
 </template>
 

@@ -3,13 +3,29 @@ export default [{
   _children: [
     {
       _name: 'CSidebarNavItem',
-      name: 'Dashboard',
+      name: 'Inicio',
       to: '/dashboard',
-      icon: 'cil-speedometer',
-      badge: {
-        color: 'primary',
-        text: 'NEW'
-      }
+      icon: 'cil-home',
+      // badge: {
+      //   color: 'primary',
+      //   text: 'NEW'
+      // }
+    },
+    {
+      _name: 'CSidebarNavItem',
+      name: 'Mi progreso',
+      to: '/progress',
+      icon: 'cil-check',
+    },
+    {
+      _name: 'CSidebarNavItem',
+      name: 'Compromisos',
+      to: '/compromisos',
+      icon: 'cil-globe-alt',
+      // badge: {
+      //   color: 'primary',
+      //   text: 'NEW'
+      // }
     },
     {
       _name: 'CSidebarNavTitle',

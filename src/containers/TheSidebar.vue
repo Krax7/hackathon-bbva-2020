@@ -6,7 +6,7 @@
     @update:show="(value) => $store.commit('set', ['sidebarShow', value])"
   >
     <CSidebarBrand class="d-md-down-none" to="/">
-      <CIcon 
+      <!-- <CIcon 
         class="c-sidebar-brand-full" 
         name="logo" 
         size="custom-size"
@@ -19,7 +19,12 @@
         size="custom-size"
         :height="35"
         viewBox="0 0 110 134"
-      />
+      /> -->
+      <img
+        class="img-fluid" 
+        src="img/brand/hcero-logo-blanco.png" 
+        alt="logo"
+      >
     </CSidebarBrand>
     <CRenderFunction flat :contentToRender="$options.nav"/>
     <CSidebarMinimizer 
