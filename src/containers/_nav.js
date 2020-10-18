@@ -119,6 +119,42 @@ export default [{
     },
     {
       _name: 'CSidebarNavItem',
+      name: 'Profile',
+      to: '/profilex',
+      icon: 'cil-people'
+    },
+    {
+      _name: 'CSidebarNavItem',
+      name: 'Certificado de Emisiones en Blockchain',
+      to: '/certificado',
+      icon: 'cil-spreadsheet'
+    },
+    {
+      _name: 'CSidebarNavItem',
+      name: 'Directorio de Empresas',
+      to: '/directorio_empresas',
+      icon: 'cil-globe-alt'
+    },
+    {
+      _name: 'CSidebarNavItem',
+      name: 'Eventos',
+      to: '/eventos',
+      icon: 'cil-globe-alt'
+    },
+    {
+      _name: 'CSidebarNavItem',
+      name: 'Financiamiento Verde',
+      to: '/financiamiento_verde',
+      icon: 'cil-globe-alt'
+    },
+    {
+      _name: 'CSidebarNavItem',
+      name: 'Calculadora',
+      to: '/calculadora',
+      icon: 'cil-globe-alt'
+    },
+    {
+      _name: 'CSidebarNavItem',
       name: 'Charts',
       to: '/charts',
       icon: 'cil-chart-pie'

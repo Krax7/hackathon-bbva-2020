@@ -10,6 +10,12 @@ const Dashboard = () => import('@/views/Dashboard')
 const Colors = () => import('@/views/theme/Colors')
 const Typography = () => import('@/views/theme/Typography')
 
+const Calculadora = () => import('@/views/calculadora/Calculadora')
+const FinanciamientoVerde = () => import('@/views/financiamiento_verde/FinanciamientoVerde')
+const Eventos = () => import('@/views/eventos/Eventos')
+const Empresas = () => import('@/views/directorio_empresas/EmpresaSoluciones')
+const Certificado = () => import('@/views/certificado/Certificado')
+const Profilex = () => import('@/views/profilex/Profilex')
 const Charts = () => import('@/views/charts/Charts')
 const Widgets = () => import('@/views/widgets/Widgets')
 
@@ -124,6 +130,36 @@ export default new Router({
           path: 'charts',
           name: 'Charts',
           component: Charts
+        },
+        {
+          path: 'profilex',
+          name: 'Profilex',
+          component: Profilex
+        },
+        {
+          path: 'certificado',
+          name: 'Certificado',
+          component: Certificado
+        },
+        {
+          path: 'directorio_empresas',
+          name: 'Empresas',
+          component: Empresas
+        },
+        {
+          path: 'eventos',
+          name: 'Eventos',
+          component: Eventos
+        },
+        {
+          path: 'financiamiento_verde',
+          name: 'Financiamiento Verde',
+          component: FinanciamientoVerde
+        },
+        {
+          path: 'calculadora',
+          name: 'Calculadora',
+          component: Calculadora
         },
         {
           path: 'tables',
